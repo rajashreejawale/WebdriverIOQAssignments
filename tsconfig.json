@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "types": [
+            "node",
+            "@wdio/mocha-framework",
+            "@wdio/sync",
+        ]
+    },
+    "include": [
+        "./test/**/*.ts"
+    ]
+}
+
+

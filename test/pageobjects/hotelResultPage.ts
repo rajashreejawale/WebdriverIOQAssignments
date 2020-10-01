@@ -21,7 +21,7 @@ export default class hotelResultPage {
         this.hotelLocationInResult = $(`ul#HotelSearchResults`);
         this.autoSuggestList = $(`[role='listbox']`);
         this.clearHotelName = $(`button#ClearHotelName`);
-        this.flashMessage = $(`//div[@id='HotelResultsContent']//div[@class='js-no-results no-results-message']`);
+        this.flashMessage = $(`.js-no-results.no-results-message`);
         this.chooseRoom = $(`/html//ul[@id='HotelSearchResults']/li[2]/div//button[.='Choose Room']`);
         this.fourSeasonsLasVegas = $('Four Seasons Hotel Las Vegas');
         this.sortList = $(`ul[class="results-sort hotel-sort grid__col-auto grid--no-wrap grid--align-center hotel-sort-align"]`);
@@ -90,7 +90,7 @@ export default class hotelResultPage {
         // let maxPageNo =this.getHotelResultTotalPages();
         // let minPageNo =1;
         // let randomPageNo = Math.floor(Math.random() * (maxPageNo - minPageNo + 1) + minPageNo);
-        // this.paginationGoToPage(randomPageNo);
+        // this.goToPaginationPage(randomPageNo);
         //get max no of hotels available on page
         let maxHotelNo = this.resultList.$$('.js-hotel-result').length;
         console.log("Max no:" + maxHotelNo);
@@ -114,7 +114,7 @@ export default class hotelResultPage {
     clickRandomChooseRoomButton(randomHotelNo: number) {
         browser.pause(5000);
         let i = randomHotelNo;
-        console.log("Mohit:" + i)
+        console.log("Random No:" + i)
         this.resultList.$$(`.js-hotel-result`)[i].$(`div`).$('div').$(`.hotel-result-pricing-section-container`).$(`div`).$(`dl`).$$('dd')[4].$(`button`).click();
         browser.pause(4000);
         //this.resultList.$$(`.btn margin-top-1 js-choose-room padding-left-1 padding-right-1 button-custom-one btn-primary`)[i].click();
@@ -138,7 +138,7 @@ export default class hotelResultPage {
         return Math.ceil(this.getHotelResultCount() / 25);
     }
     // go to specified page 
-    paginationGoToPage(pageNo: any) {
+    goToPaginationPage(pageNo: any) {
         pageNo = `${pageNo}`;
         let i = 0;
         //scanning pagination array left to right

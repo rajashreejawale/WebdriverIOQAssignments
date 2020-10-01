@@ -43,13 +43,18 @@ describe('Hotel result page tests', () => {
         browser.pause(5000);
     });
 
-    // it('verify Search result hotel name filter when hotel does not exists', () => {
-    //     HotelResultPage.setHotelNameFilter('Tahiti Village');
-    //     HotelResultPage.selectAutolistedHotel();
-    //     expect(HotelResultPage.flashNoHotelFoundMsg()).toContain("We couldn’t find any hotels that match your filter selections. Your filter selections have been removed. View all hotels below.");  
-    //     expect(HotelResultPage.getHotelNameFilter).toBeNull();
-    //     browser.pause(3000);
-    // });
+    it('verify Search result hotel name filter when hotel does not exists', () => {
+        browser.pause(3000);
+        HotelResultPage.setCheckBoxRating(5);
+        browser.pause(3000);
+        HotelResultPage.setHotelNameFilter('Tahiti Village');
+        HotelResultPage.selectAutolistedHotel();
+        browser.pause(3000);
+        let message = HotelResultPage.flashNoHotelFoundMsg();
+        expect(message).toContain("We couldn’t find any hotels that match your filter selections. Your filter selections have been removed. View all hotels below.");  
+        expect(HotelResultPage.getHotelNameFilter()).toBe('');
+        browser.pause(3000);
+    });
 
     it(' verify star Rating filter', () => {
         browser.pause(3000);
@@ -83,18 +88,18 @@ describe('Hotel Result pagination tests', () => {
 
     it('pagination click test', () => {
         let pageNumber = 11;
-        HotelResultPage.paginationGoToPage(pageNumber);
+        HotelResultPage.goToPaginationPage(pageNumber);
         browser.pause(3000);
         let currentPage = HotelResultPage.paginationCurrentPage.getText();
         expect(currentPage).toBe(`${pageNumber}`);
         browser.pause(3000);
         //Reset to page 1
-        HotelResultPage.paginationGoToPage(1);
+        HotelResultPage.goToPaginationPage(1);
         browser.pause(3000);
     });
 
     it('should hide previous button on first page', () => {
-        HotelResultPage.paginationGoToPage(1);
+        HotelResultPage.goToPaginationPage(1);
         browser.pause(3000);
         expect(HotelResultPage.getElementpagination(0)).toBe('1');
         browser.pause(3000);
@@ -102,15 +107,15 @@ describe('Hotel Result pagination tests', () => {
 
     it('should hide next button on last page', () => {
         let totalPageCount = HotelResultPage.getHotelResultTotalPages();
-        HotelResultPage.paginationGoToPage(totalPageCount);
+        HotelResultPage.goToPaginationPage(totalPageCount);
         browser.pause(3000);
         expect(HotelResultPage.getElementpagination(HotelResultPage.paginationArray.$$('li').length - 1)).toBe(`${HotelResultPage.getHotelResultTotalPages()}`);
-        HotelResultPage.paginationGoToPage(1);
+        HotelResultPage.goToPaginationPage(1);
         browser.pause(3000);
     });
 
     it('previous button should take you to previous page', () => {
-        HotelResultPage.paginationGoToPage(4);
+        HotelResultPage.goToPaginationPage(4);
         browser.pause(3000);
         HotelResultPage.paginationArray.$$('li')[0].click();
         browser.pause(3000);
@@ -119,7 +124,7 @@ describe('Hotel Result pagination tests', () => {
     });
 
     it('next button should take you to next page', () => {
-        HotelResultPage.paginationGoToPage(4);
+        HotelResultPage.goToPaginationPage(4);
         browser.pause(3000);
         HotelResultPage.paginationArray.$$('li')[HotelResultPage.paginationArray.$$('li').length - 1].click();
         browser.pause(3000);
@@ -147,7 +152,7 @@ describe('Hotel Result sorting tests', () => {
     })
 
     it('sort for Price per Night', () => {
-        HotelResultPage.paginationGoToPage(4);
+        HotelResultPage.goToPaginationPage(4);
         expect(HotelResultPage.clickSortListElement('Price Per Night')).toBe(true);
         browser.pause(3000);
     });

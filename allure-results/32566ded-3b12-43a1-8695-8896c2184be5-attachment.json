@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "/html//ul[@id='HotelSearchResults']/li[2]/div//button[.='Choose Room']"
+}

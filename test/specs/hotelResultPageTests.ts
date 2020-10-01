@@ -173,5 +173,4 @@ describe('Hotel Result sorting tests', () => {
 })
 
 
-
 //write seperate describe statement for groups

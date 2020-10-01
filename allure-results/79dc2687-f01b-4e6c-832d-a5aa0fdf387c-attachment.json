@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "ul[class=\"results-sort hotel-sort grid__col-auto grid--no-wrap grid--align-center hotel-sort-align\"]"
+}

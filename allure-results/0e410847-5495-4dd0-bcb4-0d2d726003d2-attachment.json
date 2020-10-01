@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"MainHotelResultsFilter\"]/div[2]/fieldset/div/ul/li[3]/ul/li[1]/label/span[1]"
+}

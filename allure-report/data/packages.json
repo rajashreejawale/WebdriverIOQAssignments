@@ -1,0 +1,315 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Hotel result page tests",
+    "children" : [ {
+      "name" : "\"before all\" hook for \"verify result wayfinder information\"",
+      "uid" : "72064209d7d6ad9f",
+      "parentUid" : "06cf49f635e8b5de7e5ddaacc37fe369",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536123433,
+        "stop" : 1601536155702,
+        "duration" : 32269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "verify result wayfinder information",
+      "uid" : "1aa81db61bb02545",
+      "parentUid" : "06cf49f635e8b5de7e5ddaacc37fe369",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536155702,
+        "stop" : 1601536155723,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "verify result hotel count",
+      "uid" : "cb59571f88976190",
+      "parentUid" : "06cf49f635e8b5de7e5ddaacc37fe369",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536155723,
+        "stop" : 1601536156830,
+        "duration" : 1107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "verify hotel location",
+      "uid" : "c057b3fa4aaf0e7",
+      "parentUid" : "06cf49f635e8b5de7e5ddaacc37fe369",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536156830,
+        "stop" : 1601536157834,
+        "duration" : 1004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "verify hotels are filtered when searched hotel exists",
+      "uid" : "6cc7f9b89feb17f7",
+      "parentUid" : "06cf49f635e8b5de7e5ddaacc37fe369",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536157834,
+        "stop" : 1601536169828,
+        "duration" : 11994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : " verify star Rating filter",
+      "uid" : "6e48565c2d722003",
+      "parentUid" : "06cf49f635e8b5de7e5ddaacc37fe369",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536169829,
+        "stop" : 1601536176130,
+        "duration" : 6301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    } ],
+    "uid" : "06cf49f635e8b5de7e5ddaacc37fe369"
+  }, {
+    "name" : "Hotel Result pagination tests",
+    "children" : [ {
+      "name" : "\"before all\" hook for \"pagination click test\"",
+      "uid" : "e63d6123de516ee0",
+      "parentUid" : "df33fdeb7bacd9aa72eb0bd4dedbc456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536176164,
+        "stop" : 1601536199475,
+        "duration" : 23311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "pagination click test",
+      "uid" : "20eddb6c093492d",
+      "parentUid" : "df33fdeb7bacd9aa72eb0bd4dedbc456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536199475,
+        "stop" : 1601536232997,
+        "duration" : 33522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "should hide previous button on first page",
+      "uid" : "5be8a8163dfc5bc",
+      "parentUid" : "df33fdeb7bacd9aa72eb0bd4dedbc456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536233001,
+        "stop" : 1601536244446,
+        "duration" : 11445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "should hide next button on last page",
+      "uid" : "cd15cec6f0b56da2",
+      "parentUid" : "df33fdeb7bacd9aa72eb0bd4dedbc456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536244447,
+        "stop" : 1601536271992,
+        "duration" : 27545
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "previous button should take you to previous page",
+      "uid" : "efd630951683ed0e",
+      "parentUid" : "df33fdeb7bacd9aa72eb0bd4dedbc456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536271993,
+        "stop" : 1601536287509,
+        "duration" : 15516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "next button should take you to next page",
+      "uid" : "973f06a1af6fa3c1",
+      "parentUid" : "df33fdeb7bacd9aa72eb0bd4dedbc456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536287509,
+        "stop" : 1601536302712,
+        "duration" : 15203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    } ],
+    "uid" : "df33fdeb7bacd9aa72eb0bd4dedbc456"
+  }, {
+    "name" : "Hotel Result sorting tests",
+    "children" : [ {
+      "name" : "\"before all\" hook for \"sort for Price per Night\"",
+      "uid" : "1531470a040863e3",
+      "parentUid" : "d1888185ba3b222ca24f32b828444a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536303490,
+        "stop" : 1601536328876,
+        "duration" : 25386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "sort for Price per Night",
+      "uid" : "8302800f6a1f0e80",
+      "parentUid" : "d1888185ba3b222ca24f32b828444a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536328877,
+        "stop" : 1601536346784,
+        "duration" : 17907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "sort for Hotel Name",
+      "uid" : "66998be0d884abd",
+      "parentUid" : "d1888185ba3b222ca24f32b828444a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536346785,
+        "stop" : 1601536357006,
+        "duration" : 10221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "sort for Distance",
+      "uid" : "c797f29cded2cce3",
+      "parentUid" : "d1888185ba3b222ca24f32b828444a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536357006,
+        "stop" : 1601536372466,
+        "duration" : 15460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "sort for Star Rating",
+      "uid" : "14f9dae991f9f016",
+      "parentUid" : "d1888185ba3b222ca24f32b828444a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536372467,
+        "stop" : 1601536379712,
+        "duration" : 7245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    } ],
+    "uid" : "d1888185ba3b222ca24f32b828444a23"
+  }, {
+    "name" : "Hotel search page tests",
+    "children" : [ {
+      "name" : "\"before all\" hook for \"should search Hotels\"",
+      "uid" : "9508d94a36f7e525",
+      "parentUid" : "58f04c7b24fe5294de4ccea17d98d275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536475134,
+        "stop" : 1601536489902,
+        "duration" : 14768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "should search Hotels",
+      "uid" : "676d3ac95dec856a",
+      "parentUid" : "58f04c7b24fe5294de4ccea17d98d275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536489902,
+        "stop" : 1601536506120,
+        "duration" : 16218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    } ],
+    "uid" : "58f04c7b24fe5294de4ccea17d98d275"
+  }, {
+    "name" : "Hotel Details page Test",
+    "children" : [ {
+      "name" : "\"before all\" hook for \"Verify HotelName,Rating,Room Availability\"",
+      "uid" : "6e95e0dc06d69af7",
+      "parentUid" : "288e0da1743286a57c7683947ff51306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536600649,
+        "stop" : 1601536636457,
+        "duration" : 35808
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    }, {
+      "name" : "Verify HotelName,Rating,Room Availability",
+      "uid" : "9c0bd6cb759e5a7",
+      "parentUid" : "288e0da1743286a57c7683947ff51306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601536636458,
+        "stop" : 1601536655018,
+        "duration" : 18560
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    } ],
+    "uid" : "288e0da1743286a57c7683947ff51306"
+  }, {
+    "name" : "Home Page Tests",
+    "children" : [ {
+      "name" : "1. Verify Vacation Direct title",
+      "uid" : "45bd2dded5e6c3cb",
+      "parentUid" : "12302c1949cf6a9ef9b65b8cca55597f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1601539908209,
+        "stop" : 1601539918249,
+        "duration" : 10040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    } ],
+    "uid" : "12302c1949cf6a9ef9b65b8cca55597f"
+  } ]
+}

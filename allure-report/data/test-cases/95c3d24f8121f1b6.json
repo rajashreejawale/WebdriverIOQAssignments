@@ -1,0 +1,87 @@
+{
+  "uid" : "95c3d24f8121f1b6",
+  "name" : "verify result wayfinder information",
+  "fullName" : "Hotel result page tests.verify result wayfinder information",
+  "historyId" : "a5e3aa87a7004500330f9037368f8b93",
+  "time" : {
+    "start" : 1601535382131,
+    "stop" : 1601535382150,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/element/f8b01e84-dd31-4b8b-a773-2307d65f6014/text",
+      "time" : {
+        "start" : 1601535382131,
+        "stop" : 1601535382148,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3fdd2673db4e678",
+        "name" : "Response",
+        "source" : "c3fdd2673db4e678.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hotel result page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Hotel result page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify result wayfinder information"
+  }, {
+    "name" : "package",
+    "value" : "Hotel result page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95c3d24f8121f1b6.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

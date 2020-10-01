@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "/html//div[@id='HotelResultContent']/div[2]//span[@class='margin-right-1']"
+}

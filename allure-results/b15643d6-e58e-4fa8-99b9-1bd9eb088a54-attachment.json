@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@id='HotelResultsContent']//div[@class='js-no-results no-results-message']"
+}

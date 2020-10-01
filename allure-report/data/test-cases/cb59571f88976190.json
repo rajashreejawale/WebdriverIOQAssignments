@@ -1,0 +1,199 @@
+{
+  "uid" : "cb59571f88976190",
+  "name" : "verify result hotel count",
+  "fullName" : "Hotel result page tests.verify result hotel count",
+  "historyId" : "11428fb398be2b03480985996747ce40",
+  "time" : {
+    "start" : 1601536155723,
+    "stop" : 1601536156830,
+    "duration" : 1107
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1601536155724,
+        "stop" : 1601536155739,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd5b8e7b18d1210d",
+        "name" : "Request",
+        "source" : "bd5b8e7b18d1210d.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "d0aa072ddab1186d",
+        "name" : "Response",
+        "source" : "d0aa072ddab1186d.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1601536156225,
+        "stop" : 1601536156767,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "700ca783a6e32f2f",
+        "name" : "Request",
+        "source" : "700ca783a6e32f2f.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "5852d4dccba490ad",
+        "name" : "Response",
+        "source" : "5852d4dccba490ad.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1601536156768,
+        "stop" : 1601536156781,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7b9115a01b5da12",
+        "name" : "Request",
+        "source" : "a7b9115a01b5da12.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "30bc13281a6a75d1",
+        "name" : "Response",
+        "source" : "30bc13281a6a75d1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/702f9059-6577-4926-ab4d-67c64ad8efa7/text",
+      "time" : {
+        "start" : 1601536156782,
+        "stop" : 1601536156803,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "294672b4e7f511c7",
+        "name" : "Response",
+        "source" : "294672b4e7f511c7.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/702f9059-6577-4926-ab4d-67c64ad8efa7/text",
+      "time" : {
+        "start" : 1601536156804,
+        "stop" : 1601536156829,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dfef0cecfe19295e",
+        "name" : "Response",
+        "source" : "dfef0cecfe19295e.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hotel result page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Hotel result page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify result hotel count"
+  }, {
+    "name" : "package",
+    "value" : "Hotel result page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5662848850feb50b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601535382150,
+        "stop" : 1601535383272,
+        "duration" : 1122
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb59571f88976190.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

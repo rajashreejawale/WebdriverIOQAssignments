@@ -1,0 +1,97 @@
+{
+  "uid" : "1aa81db61bb02545",
+  "name" : "verify result wayfinder information",
+  "fullName" : "Hotel result page tests.verify result wayfinder information",
+  "historyId" : "a5e3aa87a7004500330f9037368f8b93",
+  "time" : {
+    "start" : 1601536155702,
+    "stop" : 1601536155723,
+    "duration" : 21
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/element/26fa1be3-8420-4a80-96bf-67ac0d82ce50/text",
+      "time" : {
+        "start" : 1601536155703,
+        "stop" : 1601536155722,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38c2c796f3dc0619",
+        "name" : "Response",
+        "source" : "38c2c796f3dc0619.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Hotel result page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Hotel result page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify result wayfinder information"
+  }, {
+    "name" : "package",
+    "value" : "Hotel result page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95c3d24f8121f1b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601535382131,
+        "stop" : 1601535382150,
+        "duration" : 19
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1aa81db61bb02545.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

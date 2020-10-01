@@ -1,0 +1,221 @@
+[ {
+  "uid" : "efd630951683ed0e",
+  "name" : "previous button should take you to previous page",
+  "time" : {
+    "start" : 1601536271993,
+    "stop" : 1601536287509,
+    "duration" : 15516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e63d6123de516ee0",
+  "name" : "\"before all\" hook for \"pagination click test\"",
+  "time" : {
+    "start" : 1601536176164,
+    "stop" : 1601536199475,
+    "duration" : 23311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5be8a8163dfc5bc",
+  "name" : "should hide previous button on first page",
+  "time" : {
+    "start" : 1601536233001,
+    "stop" : 1601536244446,
+    "duration" : 11445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14f9dae991f9f016",
+  "name" : "sort for Star Rating",
+  "time" : {
+    "start" : 1601536372467,
+    "stop" : 1601536379712,
+    "duration" : 7245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c0bd6cb759e5a7",
+  "name" : "Verify HotelName,Rating,Room Availability",
+  "time" : {
+    "start" : 1601536636458,
+    "stop" : 1601536655018,
+    "duration" : 18560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1531470a040863e3",
+  "name" : "\"before all\" hook for \"sort for Price per Night\"",
+  "time" : {
+    "start" : 1601536303490,
+    "stop" : 1601536328876,
+    "duration" : 25386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45bd2dded5e6c3cb",
+  "name" : "1. Verify Vacation Direct title",
+  "time" : {
+    "start" : 1601539908209,
+    "stop" : 1601539918249,
+    "duration" : 10040
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb59571f88976190",
+  "name" : "verify result hotel count",
+  "time" : {
+    "start" : 1601536155723,
+    "stop" : 1601536156830,
+    "duration" : 1107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e95e0dc06d69af7",
+  "name" : "\"before all\" hook for \"Verify HotelName,Rating,Room Availability\"",
+  "time" : {
+    "start" : 1601536600649,
+    "stop" : 1601536636457,
+    "duration" : 35808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "973f06a1af6fa3c1",
+  "name" : "next button should take you to next page",
+  "time" : {
+    "start" : 1601536287509,
+    "stop" : 1601536302712,
+    "duration" : 15203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c797f29cded2cce3",
+  "name" : "sort for Distance",
+  "time" : {
+    "start" : 1601536357006,
+    "stop" : 1601536372466,
+    "duration" : 15460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "676d3ac95dec856a",
+  "name" : "should search Hotels",
+  "time" : {
+    "start" : 1601536489902,
+    "stop" : 1601536506120,
+    "duration" : 16218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20eddb6c093492d",
+  "name" : "pagination click test",
+  "time" : {
+    "start" : 1601536199475,
+    "stop" : 1601536232997,
+    "duration" : 33522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c057b3fa4aaf0e7",
+  "name" : "verify hotel location",
+  "time" : {
+    "start" : 1601536156830,
+    "stop" : 1601536157834,
+    "duration" : 1004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1aa81db61bb02545",
+  "name" : "verify result wayfinder information",
+  "time" : {
+    "start" : 1601536155702,
+    "stop" : 1601536155723,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72064209d7d6ad9f",
+  "name" : "\"before all\" hook for \"verify result wayfinder information\"",
+  "time" : {
+    "start" : 1601536123433,
+    "stop" : 1601536155702,
+    "duration" : 32269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8302800f6a1f0e80",
+  "name" : "sort for Price per Night",
+  "time" : {
+    "start" : 1601536328877,
+    "stop" : 1601536346784,
+    "duration" : 17907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66998be0d884abd",
+  "name" : "sort for Hotel Name",
+  "time" : {
+    "start" : 1601536346785,
+    "stop" : 1601536357006,
+    "duration" : 10221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cc7f9b89feb17f7",
+  "name" : "verify hotels are filtered when searched hotel exists",
+  "time" : {
+    "start" : 1601536157834,
+    "stop" : 1601536169828,
+    "duration" : 11994
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9508d94a36f7e525",
+  "name" : "\"before all\" hook for \"should search Hotels\"",
+  "time" : {
+    "start" : 1601536475134,
+    "stop" : 1601536489902,
+    "duration" : 14768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd15cec6f0b56da2",
+  "name" : "should hide next button on last page",
+  "time" : {
+    "start" : 1601536244447,
+    "stop" : 1601536271992,
+    "duration" : 27545
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e48565c2d722003",
+  "name" : " verify star Rating filter",
+  "time" : {
+    "start" : 1601536169829,
+    "stop" : 1601536176130,
+    "duration" : 6301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

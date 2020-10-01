@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"inputCheckInDate_Label\"]/parent::*/div/input[2]"
+}

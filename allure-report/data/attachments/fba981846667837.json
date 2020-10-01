@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "ul[class='js-pagination pagination-lg margin-left-1']"
+}

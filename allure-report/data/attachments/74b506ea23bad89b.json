@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@id='WayfinderWrapper']//span[@class='js-wayfinder-prefered-search']"
+}

@@ -121,7 +121,7 @@ export default class hotelResultPage {
         //this.resultList.$(`/html//ul[@id='HotelSearchResults']/li[`+i+`]/div//button[.='Choose Room']`).click();
     }
 
-    // //
+    // 
     // goToPaginationPageElement(index: number) {
     //     return this.paginationArray.$$('li')[index];
     // }

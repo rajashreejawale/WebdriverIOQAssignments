@@ -114,7 +114,7 @@ export default class hotelResultPage {
     clickRandomChooseRoomButton(randomHotelNo: number) {
         browser.pause(5000);
         let i = randomHotelNo;
-        console.log("Random No:" + i)
+        console.log("Random No: " + i)
         this.resultList.$$(`.js-hotel-result`)[i].$(`div`).$('div').$(`.hotel-result-pricing-section-container`).$(`div`).$(`dl`).$$('dd')[4].$(`button`).click();
         browser.pause(4000);
         //this.resultList.$$(`.btn margin-top-1 js-choose-room padding-left-1 padding-right-1 button-custom-one btn-primary`)[i].click();

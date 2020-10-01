@@ -67,7 +67,6 @@ describe('Hotel result page tests', () => {
     });
 })
 
-
 describe('Hotel Result pagination tests', () => {
     let HotelSearchPage;
     let HotelResultPage;
